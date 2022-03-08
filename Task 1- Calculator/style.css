@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #B8FFF9;
+  }
+  
+  .container {
+    width: 40%;
+    height: 60vh;
+    display: block;
+    margin: 10vh auto;
+    align-self: center;
+    font-family: serif;
+  }
+  
+  h1 {
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+  }
+  
+  .screen {
+    height: 10vh;
+    background-color: #fdfdff;
+    border: solid 2px black;
+    border-radius: 5px;
+    font-size: x-large;
+    color: rgb(12, 11, 11);
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  
+  input[type="text"] {
+    width: 96%;
+  }
+  
+  input[type="button"]:active {
+    background-color: #e9806e;
+  }
+  
+  .operator,
+  .clear,
+  .equal {
+    background-color: #8a8286;
+    padding: 5px;
+    color: rgb(245, 236, 236);
+    border: 2px solid black;
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .number {
+    background-color: #f9e9ec;
+    border-radius: 5px;
+    padding: 5px;
+    height: 10vh;
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+
+  /* Hover parts  */
+  
+  .number:hover,
+  .equal:hover,
+  .operator:hover,
+  .clear:hover {
+    transition: 0.2s ease-in;
+    background-color: #EF6D6D;
+    color: white;
+    transform: scale(1.04);
+  }
+  
+  .operator:hover {
+    background-color: #EF6D6D;
+  }
+  
+/* clear button */
+
+  .clear {
+    background-color: #03045E;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 13vh;
+    margin-left: 2px;
+  }
+  
+  .clear:hover {
+    background-color: red;
+  }
+  
+  /* equal button */
+  .equal {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  .equal:hover {
+    background-color: green;
+  }
+
+
+  table {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+ /* Fotter CSS  */
+  footer {
+    text-align: center;
+    
+  }
+
+
+  
+
