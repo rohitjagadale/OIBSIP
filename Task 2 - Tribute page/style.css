@@ -1,0 +1,33 @@
+.blue-text {
+    color: #0074D9;
+  }
+.background {
+  background-color: #B8FFF9;
+  padding: 20px;
+  border-radius: 20px;
+}
+body {
+  margin: 40px;
+  text-align: center;
+  background-color: #EFFFFD;
+}
+p {
+  margin: 20px 60px 20px 60px;
+  text-align: justify;
+}
+.quote {
+  color: black;
+  padding: 5px;
+  background-color: EFFFFD;
+  text-align: center;
+  font-style: italic;
+}
+footer {
+  font-size: 13px;
+}
+ul{
+    text-align: left;
+}
+.profileImg{
+  height: 300px;
+}
